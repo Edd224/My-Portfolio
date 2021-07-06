@@ -11,7 +11,7 @@ const navItems = document.querySelectorAll('.nav-item');
 let showMenu = false;
 
 
-menuBtn.addEventListener('click', togglenMenu);
+menuBtn.addEventListener('click', toggleMenu);
 
 function toggleMenu() 
 {
@@ -22,7 +22,12 @@ function toggleMenu()
         menuNav.classList.add('show');
         menuBranding.classList.add('show');
         navItems.forEach(item => item.classList.add('show'));
+
+        
+    // Set Menu State
+        showMenu = true;
     }
+
 
     else 
     {

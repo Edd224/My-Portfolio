@@ -31,10 +31,22 @@
         {
             // Line 1 - Rotate
             &:nth-child(1)
-            {
-                background: red;
-
+            {   // Line 1 - Rotate
+                transform:  rotate(45deg) translate(5px, 5px);
             }
+            // Line 2 - Hide
+            &:nth-child(2)
+            {   // Line 1 - Rotate
+                opacity: 0;
+            }
+            // Line 3 - Rotate
+            &:nth-child(3)
+            {   // Line 1 - Rotate
+                transform:  rotate(-45deg) translate(7px, -6px);
+            }
+
+
+
             
 
 

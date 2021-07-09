@@ -89,22 +89,27 @@
         padding: 0;
         background: darken($primary-color, 5);
         list-style: none;
-        transform: translate3d(0,-100, 0);
+        transform: translate3d(0,-100%, 0);
         @include easeOut;
-    }
 
 
 
-    &.show
+
+        &.show
     
-    {
-        //Slide in from top
-        transform: translate3d(0, 0, 0);
+        {
+            //Slide in from top
+            transform: translate3d(0, 0, 0);
+        }
+    
+    
     }
 
 
 
-         //Branding Side
+
+
+        //Branding Side
     &-branding
     {
         background: $primary-color;

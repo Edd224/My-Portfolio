@@ -66,8 +66,8 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding .portrait {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
   background: url("../img/Portret.jpg");
   background-repeat: no-repeat;
   background-position: center;

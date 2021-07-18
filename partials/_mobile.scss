@@ -27,10 +27,14 @@
         text-align: center;
 
 
+
+
         .lg-heading
         {
             line-height: 1;
             margin-bottom: 1rem;
+            font-size: 4rem;
+    
         }
     }
 
@@ -45,9 +49,11 @@
         min-height: 0;
 
 
+
         &.show
         {
             transform: translate3d(0,0,0);
+
         }
     }
 
@@ -55,7 +61,8 @@
     {
         height: 75vh;
         transform: translate3d(-100, 0, 0);
-        font-size: 24px;
+        font-size: 34px;
+
     }
 
 
@@ -63,6 +70,7 @@
     .menu_branding
     {
         height: 25vh;
+
         transform: translate3d(100%,0,0);
 
 
@@ -72,6 +80,7 @@
             background:  url('../img/Foto.jpg');
             width: 150px;
             height: 150px;
+
         }
     }
 
